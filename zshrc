@@ -45,7 +45,7 @@ zstyle ':completion:*' menu select=long
 zstyle ':completion:*' select-prompt %SScrolling active: current selection at %p%s
 zstyle ':completion:*' substitute 1
 # CUSTOMIZE(this_file)
-zstyle :compinstall filename '/home/samking/.zshrc'
+zstyle :compinstall filename '/home/sanjaye/.zshrc'
 
 # insert all expansions for expand completer
 zstyle ':completion:*:expand:*' tag-order all-expansions
@@ -70,7 +70,7 @@ zstyle ':completion:*:*:-subscript-:*' tag-order indexes parameters
 hosts=(myth.stanford.edu corn.stanford.edu xenon.stanford.edu \
        codethechange.org samking.org practicalunix.org)
 # CUSTOMIZE(username)
-users=(samking)
+users=(sanjaye)
 #accounts=(samking)
 #zstyle ':completion:*:processes' command 'ps -o pid,s,nice,stime,args'
 #zstyle ':completion:*:urls' local 'www' '/var/www/htdocs' 'public_html'
@@ -147,7 +147,6 @@ unsetopt correct_all     # correct my bad spelling of all argument son a line
                          # argument that is similar to a file in the current
                          # directory (eg, sudo git would correct to .git)
 # CUSTOMIZE(keyboard_layout)
-setopt dvorak            # zsh knows that I use dvorak when correcting my typos
                          # NOTE: if you use qwerty, just delete this line; there
                          # is no "qwerty" option that needs to be set.
 setopt print_exit_value  # prints the exit value of commands when it's not 0
